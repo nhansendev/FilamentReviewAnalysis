@@ -9,7 +9,7 @@ Tools/Techniques Used:
 - Jupyter Notebooks
 - Natural Language Processing
 - TF-IDF
-- BERTOpic (Sentence Transformers)
+- BERTopic (Sentence Transformers)
 - Supervised Learning
 - Clustering Algorithms
 
