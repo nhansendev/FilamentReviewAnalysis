@@ -1,1 +1,13 @@
-TBD
+numpy
+pandas
+matplotlib
+sentence_transformers
+tqdm
+scikit-learn
+nltk
+bertopic
+scipy
+hdbscan
+torch
+ipywidgets
+textalloc
