@@ -27,3 +27,16 @@ From the summaries and topic comparisons there are several insights and suggesti
 - There may be opportunities to provide accessories with the filament, such as specialized tape and glue to improve bed adhesion, filament dryers, desiccant and dry-boxes to remove and prevent moisture accumulation, and filament spool holders.
 - Print settings frequently require experimentation to dial-in, so providing a set of recommended settings to start with may improve user experience. 
 - Customers seem to prefer one-size-fits-all solutions where they can acquire all their filament from one supplier, but will switch to other brands if filament availability or quality becomes inconsistent. Improving these metrics may improve customer retention.
+
+### Recreating from provided code:
+Order of operations:
+1. `preprocessing.ipynb`
+    - to convert raw json data into cleaned, saved dataframes for later reuse
+2. `relevance_extraction.ipynb` 
+    - to identify which products are filament and which are not
+3. `supervised_comparison.ipynb` 
+    - to compare the performance of the supervised classifiers on the manually labeled data
+4. `prediction.ipynb` 
+    - to fine-tune by correcting low-confidence, misclassified titles and predict on remaining data, then identify relevant reviews
+5. `topic_modeling_sentences.ipynb`
+    - to generate the review sentence topic clusters, graphics, sentence examples, etc.
