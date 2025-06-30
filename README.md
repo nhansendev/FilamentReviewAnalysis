@@ -5,7 +5,7 @@
 
 Tools/Techniques Used:
 - python
-- matplotlib, pandas
+  - numpy, pandas, matplotlib, sentence_transformers, scikit-learn, nltk, bertopic, scipy, hdbscan, torch, ipywidgets
 - Jupyter Notebooks
 - Natural Language Processing
 - TF-IDF
